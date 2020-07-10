@@ -1,0 +1,37 @@
+.add-item {
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    background-color: #f1f1f1;
+}
+
+.add-item input {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+}
+
+.my-form {
+    width: 80%;
+    margin: auto;
+}
+
+.my-form button {
+    width: 100px;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    border: none;
+    background-color: #FF4F19;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-form button:hover {
+    background-color: #FF9600;
+}
+
+.my-form button.active, .my-form button:active, .my-form button.focus {
+    border: none;
+    border: 0;
+}
